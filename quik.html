@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quick typing app</title>
+    <link rel="stylesheet" href="/quik.css">
+</head>
+<body>
+    <section id="container">
+    <header class="header"><h1>WordBeater</h1></header>
+    <p>Type the word below in <span class="seconds">5</span> seconds</p>
+<h2 class="display">hello</h2>
+<input type="text" class="word-input" id="word-input" placeholder="Start Typing......" autofocus>
+<h3 class="mt-1" id="message"></h3>
+</section>
+
+<!-- Timing and score -->
+<div class="mt-2" id="timing-score">
+    <div class="timeleft">
+        <h3>Time Left <span class="time">0</span></h3>
+    </div>
+    <div><h3>score <span id="score" class="score">0</span></h3></div>
+</div>
+
+<div class="instructions">
+<h4>instuctions </h4>
+<p>Type the word in the given amount of time to score .To play again ,just type the current word. Your score will reset</p>
+
+</div>
+
+<script src="/quik.js"></script>
+
+
+</body>
+</html>

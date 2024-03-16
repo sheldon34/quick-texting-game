@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+body{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image:radial-gradient(rgba(207, 19, 207, 0.822),rgb(36, 36, 80));
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(24, 21, 21);
+    color: #fff;
+    font-size: large;}
+    .instructions{
+     min-height: 15vh;
+    min-width: 10vw;
+    word-wrap: break-word;
+    background-color: rgb(112, 106, 106);
+}
+#word-input{
+    width: 9cm;
+    height: 45px;
+    border-radius: 7px;
+    
+font-size: 25px;
+}
+#word-input::placeholder{
+    color: rgb(66, 63, 63);
+font-size: medium;
+padding: 20px;
+cursor: pointer;
+
+}
